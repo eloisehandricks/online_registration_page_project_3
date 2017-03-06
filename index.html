@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Code Review</title>
+
+<!-- LINKED STYLESHEETS /////////////////////////////////////////////////////////////// -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+<!-- FONT LICENCE FOR HONEYSCRIPT
+/////////////////////////////////////////// -->
+	<!--
+	/**
+	 * @license
+	 * MyFonts Webfont Build ID 3182197, 2016-03-07T06:11:08-0500
+	 * 
+	 * The fonts listed in this notice are subject to the End User License
+	 * Agreement(s) entered into by the website owner. All other parties are 
+	 * explicitly restricted from using the Licensed Webfonts(s).
+	 * 
+	 * You may obtain a valid license at the URLs below.
+	 * 
+	 * Webfont: FilmotypeHoney by Filmotype
+	 * URL: http://www.myfonts.com/fonts/filmotype/honey/regular/
+	 * Copyright: Copyright (c) 2010 by Font Diner Inc.. All rights reserved.
+	 * Licensed pageviews: 10,000
+	 * 
+	 * 
+	 * License: http://www.myfonts.com/viewlicense?type=web&buildid=3182197
+	 * 
+	 * © 2016 MyFonts Inc
+	*/
+
+	-->
+	<link rel="stylesheet" type="text/css" href="css/webfontkit.css">
+
+<!-- TO ALLOW FOR RESPONSIVE IMAGE DELIVERY /////////////////////////////////////////// -->
+	<script>
+	    // Picture element HTML5 shiv
+	    document.createElement( "picture" );
+	  </script>
+	  <script src="js/picturefill.js" async></script>
+</head>
+<!-- BODY STARTS ////////////////////////////////////////////////////////////////////// -->
+<body>
+	<div class="wrap">	<!-- wrapper to allow for sticky footer -->
+<!-- HEADER STARTS //////////////////////////////////////////////////////////////////// -->
+	<div class="headwrap">
+		<header id="top" class="main-header clearfix">
+			<div class="top-row">
+				<h1>THE CODE REVIEW</h1>
+			</div>
+			<div class="sub_header">
+				<h2>Signup for our newsletter</h2>
+			</div>
+			<div class="blurb"><p>Get the latest news on how your code is doing right in your inbox</p></div>
+			<div class="thick_line"><hr></div>
+			<div class="thin_line"><hr></div>
+		</header>
+	</div>
+<!-- HEADER ENDS ////////////////////////////////////////////////////////////////////// -->
+
+<!-- BODY/ MAIN CONTENT STARTS //////////////////////////////////////////////////////// -->
+		<div class="wrapper"> <!-- Max 1024px-->
+			<div class="main-content">
+				<form action="#server.side.script.location_or_relative.link(index.html)#" method="">
+
+<!-- 		/*	#### FORM ####	*/ -->
+					<fieldset>
+
+						<legend>Contact Information</legend>
+
+		<!-- 			/*	#### INPUTS ####	*/ -->
+						<label for="fullName">Full Name</label>
+						<input type="text" id="fullName" name="fullName" placeholder="Required">
+						
+						<label for="emailAddress">Email Address</label>
+						<input type="email" id="emailAddress" name="emailAddress" placeholder="Required">
+						
+						<label for="phoneNumber">Phone Number</label>
+						<input type="tel" id="phoneNumber" name="phoneNumber">
+
+						<label for="streetAddress">Street Address</label>
+						<input type="text" id="streetAddress" name="streetAddress">
+
+						<label for="city">City</label>
+						<input type="text" id="city" name="city">
+
+						<label for="state">State</label>
+						<select id="state" name="state">
+							<optgroup label="Australian State">
+								<option value="--Select One--" disabled selected>--Select One--</option>
+								<option value="ACT">Australian Capital Territory</option>
+								<option value="NSW">New South Wales</option>
+								<option value="NT">Northern Territory</option>
+								<option value="QLD">Queensland</option>
+								<option value="SA">South Australia</option>
+								<option value="TAS">Tasmania</option>
+								<option value="VIC">Victoria</option>
+								<option value="WA">Western Australia</option>
+							</optgroup>
+						</select>
+						
+						<label for="zipCode">Zip Code</label>
+						<input type="text" id="zipCode" name="zipCode">
+					</fieldset>
+					<fieldset>
+
+						<legend>Newsletter</legend>
+
+		<!-- 			/*	#### CHECKBOXES ####	*/ -->
+						<label>Select the newsletters you would like to receive</label>
+						<input type="checkbox" id="htmlNews" value="newsletter_html" name="newsletter"><label for="htmlNews" class="light">HTML News</label><br>
+						<input type="checkbox" id="cssNews" value="newsletter_css" name="newsletter"><label for="cssNews" class="light">CSS News</label><br>
+						<input type="checkbox" id="javascriptNews" value="newsletter_javascript" name="newsletter"><label for="javascriptNews" class="light">Javascript News</label>
+
+		<!-- 			/*	#### RADIO BUTTONS ####	*/ -->
+						<label class="heading">Newsletter Format</label> 
+						<input type="radio" id="html" value="html" name="newsletterFormat"><label for="html" class="light">HTML</label><br>
+						<input type="radio" id="plainText" value="plainText" name="newsletterFormat"><label for="plainText" class="light">Plain Text</label>
+
+						<!-- Text Area -->
+
+						<label>Other topics you'd like to hear about</label>
+						<textarea id="otherTopics" name="otherTopics"></textarea> 
+
+
+					</fieldset>
+
+		<!-- 		/*	#### EXAMPLE BUTTON ####	*/ -->
+					<button type="submit">Sign Up</button>
+			
+				</form>
+
+			</div> 	<!-- Main content div ends -->
+				
+
+		</div> <!--.wrapper ends/ Max 1024px-->
+<!-- BODY/ MAIN CONTENT ENDS ////////////////////////////////////////////////////////// -->
+	</div>	<!-- End wrap to allow for sticky footer -->
+<!-- FOOTER STARTS //////////////////////////////////////////////////////////////////// -->
+		<footer class="main-footer">
+			<h3>Contact</h3>
+			<div class="contact-blurb">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you.</div>
+			<div id="contact" class="contact-footer">
+				<ul>
+					<li><a href="tel:+61428909027"><span>Phone: </span>+61 428 9090 27</a></li>
+					<li><a href="mailto:loadelepd@gmail.com"><span>Email: </span>loadelepd@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="clearfix main-footer-base mobile-only">
+				<hr>
+				<div class="first">Lolo Adele</div>
+				<div class="second"><a href="#top">BACK TO TOP</a></div>
+			</div>
+			<div class="clearfix main-footer-base not-on-mobile">
+				<hr>
+				<div class="first">Lolo Adele</div>
+				<nav>
+					<ul class="footer-nav">
+						<li class="second"><a href="index.html">HOME</a></li>
+						<li class="second"><a href="#portfolio">PORTFOLIO</a></li>
+						<li class="second"><a href="#hobbies">HOBBIES</a></li>
+						<li class="second"><a href="#contact">CONTACT</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+<!-- FOOTER ENDS ////////////////////////////////////////////////////////////////////// -->
+</body>
+<!-- BODY ENDS //////////////////////////////////////////////////////////////////////// -->
+</html>

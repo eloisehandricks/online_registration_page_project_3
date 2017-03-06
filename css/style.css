@@ -1,0 +1,426 @@
+/* Base Styles -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'texgyreadventorregular', Helvetica, Verdana, Arial;
+  font-weight: 200;
+}
+
+.wrap,
+.wrapper,
+.main-footer {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+  font-size: 4em;
+  padding: .5em 0 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  padding: 10px 0;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3em;
+  padding: 10px 0;
+  margin: 0;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+
+li {
+  text-align: center;
+  font-size: 1em;
+  padding: 10px 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 { 
+  font-family: 'FilmotypeHoney';
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:active {
+  color: #000000;
+}
+
+/* Main Styles --------------------- */
+
+.headwrap {
+	text-align: center;
+  padding-top: 0;
+  background: -webkit-linear-gradient(top, rgba(255,102,68,0), rgba(255,102,68,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, rgba(255,102,68,0), rgba(255,102,68,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, rgba(255,102,68,0), rgba(255,102,68,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, rgba(255,102,68,0), rgba(255,102,68,1)); /* Standard syntax (must be last) */
+  background-size: cover;
+}
+
+.logo {
+	border-radius: 100%;
+  width: 60%;
+  max-width: 300px;
+  padding: 2em;
+}
+
+.wrapper,
+.main-footer {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.main-content {
+  text-align: left;
+}
+
+.main-content p {
+  text-align: center;
+}
+
+.column1,
+.column2 {
+  padding-top: 30px;
+}
+
+.contact-footer {
+  font-size: 1em;
+  color: #000000;
+  padding: 1em 0;
+}
+
+.contact-footer li {
+  padding: 0;
+}
+
+.contact-footer li span{
+  font-family: 'FilmotypeHoney', Verdana, Arial;
+  font-size: 2em;
+  color: #000000;
+  padding: 0;
+}
+
+.FilmotypeHoney { 
+  font-family: 'FilmotypeHoney';
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Form Styles ---------------------*/
+
+label {
+  display: block;
+  font-weight: bolder;
+  text-align: left;
+  padding: .5em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+label.light {
+  display: inline;
+  font-weight: 400;
+}
+
+input
+,textarea
+, select {
+  border: 1px #f3f3f3 solid;
+}
+
+input[type="text"]
+, input[type="email"]
+, input[type="tel"]
+, textarea
+, select
+, button {
+  width: 100%;
+  padding: .5em;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+
+
+
+/* Layout Styles ------------------ */
+  
+.main-nav li, 
+.contact-footer li {
+  display: block;
+  margin: .5em 1em;
+}
+
+.column2 > img {
+  margin-bottom: 1.5em;
+}
+
+.column2 > h4 {
+  margin-bottom: .5em;
+}
+
+.column2 > p {
+  margin: 0 .5em;
+}
+
+.main-footer {
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 2em;
+  border-bottom: 20px solid #ff6644;
+  background: -webkit-linear-gradient(bottom, rgba(255,102,68,0), rgba(255,102,68,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom, rgba(255,102,68,0), rgba(255,102,68,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom, rgba(255,102,68,0), rgba(255,102,68,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom, rgba(255,102,68,0), rgba(255,102,68,1)); /* Standard syntax (must be last) */
+  background-size: cover;
+}
+
+.main-footer-base {
+  margin-top: 2em;
+}
+
+hr {
+  margin-bottom: 0.7em;
+  color: #ffffff;
+}
+
+.main-nav li {
+  background-color: rgba(255, 102, 68, .5);
+  border-radius: 5px;
+}
+
+.not-on-mobile {
+  display: none;
+}
+
+/* Floated Columns ------------------ */
+
+.first {
+  float: left;
+  text-align: left;
+  padding: 0.5em 2em 0 0;
+}
+
+.second {
+  float: right;
+  text-align: right;
+  padding: 0.5em 0 0 2em;
+}
+
+
+/* Float Clearfix ------------------ */
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Media Queries Start ------------------ */
+
+@media (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+
+.main-content {
+  margin: 0 auto;
+}
+}
+
+@media (min-width: 769px) {
+
+  .wrap {
+    min-height: calc(100vh - 230px);
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .profile-picture {
+    float: right;
+    width: 40%;
+    background-color: rgba(255, 102, 68, .6);
+    border-radius: 5px;
+    padding-left: 0.5em;
+  }
+
+  .about-me {
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0 1em 0 0;
+  }
+
+  .main-nav {
+    padding: 1.3em 0 0 0;
+  }
+
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .first {
+    float: left;
+    padding: .3em 2em 1em 0;
+  }
+
+  .second {
+    padding: .4em 0 1em 2em;
+  }
+
+  .footer-nav {
+    float: right;
+  }
+
+  .main-footer-base li {
+    display: inline-block;
+    float: left;
+    font-size: 0.9em;
+  }
+
+  .main-header {
+  text-align: center;
+  padding: 3em 2em 2em;
+  }
+
+  .not-on-mobile > hr {
+    margin-bottom: 2em;
+  }
+
+  .column2 {
+    display: inline-block;
+    padding: 0.5em;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+  }
+
+  .column2 > img {
+    margin-top: 2em;
+  }
+
+  .contact-blurb {
+    display: inline-block;
+    width: 60%;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .main-nav li {
+    background: none;
+    border: none;
+  }
+
+  .not-on-mobile {
+    display: block;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .wrapper,
+  .main-header,
+  .main-footer-base {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .main-header {
+    padding-bottom: 4em;
+  }
+
+  .top-row {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .main-header h1 {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-top: 0; 
+  }
+
+  .main-nav {
+    float: right;
+    width: 60%;
+    text-align: right;
+  }
+
+  .main-nav li {
+    padding: 1.2em 0 0 2em;
+    font-size: 0.9em;
+    margin: 0;  
+  }
+
+  .about-me {
+    padding-right: 6em;
+  }
+
+  .column2 {
+    display: inline-block;
+    padding: 0.5em;
+    width: 33.3333%;
+    margin-right: -4px;
+    vertical-align: top;
+  }
+
+  .main-footer {
+    max-width: 100%;
+  }
+
+}
+

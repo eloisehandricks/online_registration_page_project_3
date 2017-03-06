@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'FilmotypeHoney';
+    src: url('../webfonts/308E75_0_0.eot');src: 
+         url('../webfonts/308E75_0_0.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/308E75_0_0.woff2') format('woff2'),
+         url('../webfonts/308E75_0_0.woff') format('woff'),
+         url('../webfonts/308E75_0_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('../webfonts/texgyreadventor-regular-webfont.eot');
+    src: url('../webfonts/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('../webfonts/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('../webfonts/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
