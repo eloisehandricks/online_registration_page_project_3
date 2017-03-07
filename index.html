@@ -72,22 +72,22 @@
 						<legend>Contact Information</legend>
 
 		<!-- 			/*	#### INPUTS ####	*/ -->
-						<label for="fullName">Full Name</label>
-						<input type="text" id="fullName" name="fullName" placeholder="Required">
+						<label for="fullName" class="split">Full Name</label>
+						<input type="text" id="fullName" name="fullName" placeholder="Required" required pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" title="firstname lastname">
 						
-						<label for="emailAddress">Email Address</label>
-						<input type="email" id="emailAddress" name="emailAddress" placeholder="Required">
+						<label for="emailAddress" class="split">Email Address</label>
+						<input type="email" id="emailAddress" name="emailAddress" placeholder="Required" required >
 						
-						<label for="phoneNumber">Phone Number</label>
-						<input type="tel" id="phoneNumber" name="phoneNumber">
+						<label for="phoneNumber" class="split">Phone Number</label>
+						<input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Promise we'll call!">
 
-						<label for="streetAddress">Street Address</label>
-						<input type="text" id="streetAddress" name="streetAddress">
+						<label for="streetAddress" class="split">Street Address</label>
+						<input type="text" id="streetAddress" name="streetAddress" placeholder="Promise I'll write!">
 
-						<label for="city">City</label>
-						<input type="text" id="city" name="city">
+						<label for="city" class="split">City</label>
+						<input type="text" id="city" name="city" placeholder="Name of the best city in the world">
 
-						<label for="state">State</label>
+						<label for="state" class="split">State</label>
 						<select id="state" name="state">
 							<optgroup label="Australian State">
 								<option value="--Select One--" disabled selected>--Select One--</option>
@@ -102,7 +102,7 @@
 							</optgroup>
 						</select>
 						
-						<label for="zipCode">Zip Code</label>
+						<label for="zipCode" class="split smallInput">Zip Code</label>
 						<input type="text" id="zipCode" name="zipCode">
 					</fieldset>
 					<fieldset>
@@ -119,6 +119,16 @@
 						<label class="heading">Newsletter Format</label> 
 						<input type="radio" id="html" value="html" name="newsletterFormat"><label for="html" class="light">HTML</label><br>
 						<input type="radio" id="plainText" value="plainText" name="newsletterFormat"><label for="plainText" class="light">Plain Text</label>
+
+						<!-- Text Area -->
+
+		<!-- 			/*	#### RADIO BUTTONS ####	*/ -->
+						<label class="heading">Favourite Way To Coffee</label> 
+						<input type="radio" id="longBlack" value="long black" name="faveCoffee"><label for="longBlack" class="light">Long Black</label><br>
+						<input type="radio" id="americano" value="americano" name="faveCoffee"><label for="americano" class="light">Americano</label><br>
+						<input type="radio" id="cappuccino" value="cappuccino" name="faveCoffee"><label for="cappuccino" class="light">Cappuccino</label><br>
+						<input type="radio" id="cafeLatte" value="cafe latte" name="faveCoffee"><label for="cafeLatte" class="light">Cafe Latte</label><br>
+						<input type="radio" id="hotChocolate" value="hot chocolate" name="faveCoffee"><label for="hotChocolate" class="light">Hot Chocolate</label>
 
 						<!-- Text Area -->
 
