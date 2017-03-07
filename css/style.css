@@ -170,6 +170,7 @@ input
 ,textarea
 , select {
   border: 1px #f3f3f3 solid;
+  outline: none;
 }
 
 input[type="text"]
@@ -180,6 +181,14 @@ input[type="text"]
 , button {
   width: 100%;
   padding: .5em;
+}
+
+input:focus
+, textarea:focus {
+  border: 1px solid #ff6644;
+  transition: border 2s ease-in-out 0s ;
+
+
 }
 
 textarea {
