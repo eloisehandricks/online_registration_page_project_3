@@ -55,8 +55,6 @@
 				<h2>Signup for our newsletter</h2>
 			</div>
 			<div class="blurb"><p>Get the latest news on how your code is doing right in your inbox</p></div>
-			<div class="thick_line"><hr></div>
-			<div class="thin_line"><hr></div>
 		</header>
 	</div>
 <!-- HEADER ENDS ////////////////////////////////////////////////////////////////////// -->
@@ -64,9 +62,12 @@
 <!-- BODY/ MAIN CONTENT STARTS //////////////////////////////////////////////////////// -->
 		<div class="wrapper"> <!-- Max 1024px-->
 			<div class="main-content">
-				<form action="#server.side.script.location_or_relative.link(index.html)#" method="">
+				<form action="" method="">
 
 <!-- 		/*	#### FORM ####	*/ -->
+					
+					<div><hr class="thick_line"></div>
+					<div><hr></div>
 					<fieldset>
 
 						<legend>Contact Information</legend>
@@ -105,12 +106,16 @@
 						<label for="zipCode" class="split smallInput">Zip Code</label>
 						<input type="text" id="zipCode" name="zipCode">
 					</fieldset>
+
+					<div><hr class="thick_line"></div>
+					<div><hr></div>
+
 					<fieldset>
 
 						<legend>Newsletter</legend>
 
 		<!-- 			/*	#### CHECKBOXES ####	*/ -->
-						<label>Select the newsletters you would like to receive</label>
+						<label class="heading">Select the newsletters you would like to receive</label>
 						<input type="checkbox" id="htmlNews" value="newsletter_html" name="newsletter"><label for="htmlNews" class="light">HTML News</label><br>
 						<input type="checkbox" id="cssNews" value="newsletter_css" name="newsletter"><label for="cssNews" class="light">CSS News</label><br>
 						<input type="checkbox" id="javascriptNews" value="newsletter_javascript" name="newsletter"><label for="javascriptNews" class="light">Javascript News</label>
@@ -132,7 +137,7 @@
 
 						<!-- Text Area -->
 
-						<label>Other topics you'd like to hear about</label>
+						<label class="heading">Other topics you'd like to hear about</label>
 						<textarea id="otherTopics" name="otherTopics"></textarea> 
 
 

@@ -64,6 +64,13 @@ h5 {
   font-style: normal; 
 }
 
+hr.thick_line {
+  height: 2px;
+  background-color: #000000;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
 /* Pseudo-classes ------------------ */
 
 a:link {
@@ -171,6 +178,11 @@ label.light {
 }
 
 input
+, textarea {
+  background-color: #eeeeee;
+}
+
+input
 ,textarea
 , select {
   border: 1px #f3f3f3 solid;
@@ -195,11 +207,33 @@ input:focus
   transition: background-color 2s ease-in 0s ;
 }
 
+label.heading
+, label.split {
+  padding-left: 0;
+}
+
 textarea {
   vertical-align: top;
 }
 
+button {
+  border: 1px solid #ff6644;
+  background-color: #FBD9D2;
+  margin-top: 1em;
+  font-family: 'FilmotypeHoney', Verdana, Arial;
+  font-size: 2em;
+  padding-bottom: .25em;
+}
 
+legend {
+  font-family: 'FilmotypeHoney', Verdana, Arial;
+  font-size: 2em;
+  padding-top: .5em;
+}
+
+fieldset {
+  border: none;
+}
 
 
 /* Layout Styles ------------------ */
@@ -387,17 +421,19 @@ hr {
     float: left;
     text-align: left;
     display: inline-block;
+    margin-top: 1.1em;
   }
 
   input[type="text"]
 , input[type="email"]
 , input[type="tel"]
-, textarea
 , select {
     width: 70% !important;
     float: right;
     text-align: left;
     display: inline-block;
+    margin-top: 1em;
+
   }
 
 }
